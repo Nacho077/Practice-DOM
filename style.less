@@ -1,0 +1,48 @@
+@background-title: lightblue;
+@background-elegido: green;
+@background-no-elegido: lightgreen;
+@color-elegido: black;
+@color-no-elegido: grey;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  width: 97%;
+  height: 70px;
+  background-color: @background-title;
+  top: 0;
+  margin: 10px;
+  padding: 10px;
+}
+.fernecitos {
+  display: flex;
+  justify-content: space-around;
+  h2 {
+    text-align: center;
+  }
+  .elegido {
+    width: 20%;
+    height: 250px;
+    background-color: @background-elegido;
+    border-radius: 20px;
+    color: @color-elegido;
+  }
+  .no-elegido {
+    width: 20%;
+    height: 250px;
+    background-color: @background-no-elegido;
+    border-radius: 20px;
+    color:@color-no-elegido;
+  }
+}
+.resultado {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  .armado {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+  }
+}
